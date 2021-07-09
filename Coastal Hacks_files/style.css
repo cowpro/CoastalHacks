@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap);
 
 /*! tailwindcss v2.0.3 | MIT License | https://tailwindcss.com */
 
@@ -34,6 +34,12 @@ abbr[title] {
 b,
 strong {
     font-weight: bolder
+}
+
+.gradient {
+    background: -webkit-linear-gradient(rgb(41, 230, 230), rgb(26, 97, 250)); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
 }
 
 code,
@@ -255,7 +261,7 @@ video {
 
 h2,
 p {
-    font-family: Inter, sans-serif;
+    font-family: "Nunito", sans-serif;
     --tw-text-opacity: 1;
     color: rgba(0, 0, 0, var(--tw-text-opacity))
 }
@@ -404,6 +410,10 @@ section {
     font-family: Inter, sans-serif
 }
 
+.font-nunito {
+    font-family: Nunito, sans-serif;
+}
+
 .font-fira {
     font-family: Fira Code, monospace
 }
@@ -425,7 +435,8 @@ section {
 }
 
 .font-black {
-    font-weight: 900
+    font-weight: 900;
+    font-family: Nunito, sans-serif;
 }
 
 .h-7 {
