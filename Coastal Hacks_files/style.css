@@ -936,3 +936,14 @@
                                 -webkit-transition: all .3 ease-in-out;
                                 transition: all .3 ease-in-out
                             }
+
+                            .alert {
+                                position: fixed;
+                                width: 50%;
+                                margin: 15px auto; 
+                                left: 0;
+                                right: 0;
+                                z-index: 9999;
+                                border-radius: 250px;
+                                text-align: center;
+                              }
